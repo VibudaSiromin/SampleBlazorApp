@@ -1,0 +1,10 @@
+﻿@page "/counter"
+@rendermode InteractiveServer
+@using BlazorApp1.Services
+@inject INumberService numberService
+
+<PageTitle>Random Numbers</PageTitle>
+
+<h3>Random number 1 - @numberService.Number1</h3>
+<h3>Random number 2 - @numberService.Number2</h3>
+
